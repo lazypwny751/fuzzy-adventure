@@ -21,5 +21,6 @@ impl State for GameState {
 }
 
 fn main() -> tetra::Result {
+	// https://docs.rs/tetra/latest/tetra/window/fn.get_current_monitor_size.html
     ContextBuilder::new(format!("{} - {}", TITLE.to_train_case(), VERSION), 1280, 720).build()?.run(|_| Ok(GameState))
 }
