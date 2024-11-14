@@ -15,8 +15,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Get Dependencies
         run: |
-            apt update
-            apt install -y libasound2-dev
+            sudo apt update
+            sudo apt install -y libasound2-dev
       - name: Run Clippy
         run: | 
             cargo clippy --all-targets --all-features -- -Dwarnings
