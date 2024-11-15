@@ -35,8 +35,9 @@ struct GameState {
 
 impl GameState {
 	fn new(ctx: &mut Context) -> tetra::Result<GameState> {
+		#[allow(clippy::useless_format)]
 		let vec = Text::new(format!("{}", t("hello world")), 
-			Font::vector(ctx, "assets/gunship.ttf", 16.0)?,
+			Font::vector(ctx, "assets/SourceCodePro-Regular.ttf", 16.0)?,
 		);
 
 		Ok(GameState { vec })
