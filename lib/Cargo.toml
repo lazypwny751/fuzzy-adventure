@@ -1,0 +1,10 @@
+[package]
+name = "flib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tetra = "0.8.0"
+
+[lib]
+path = "lib.rs"

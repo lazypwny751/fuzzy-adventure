@@ -1,5 +1,5 @@
-# fuzzy-adventure
-i'm learnin sdl2 via tetra
+# rusttale
+i'm tryin to learn tetra framework..
 
 ## Sound&Music.
 - [supercollider](https://supercollider.github.io)
