@@ -4,8 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [lib]
-path = "lib.rs"
+path = "transcription.rs"
 
 [dependencies]
-serde = { version = "1.0.217", features = ["derive"] }
-serde_json = "1.0.135"
+localize = { git = "https://github.com/PokeJofeJr4th/rust-localize", version = "0.1.0" }

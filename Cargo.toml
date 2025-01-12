@@ -8,3 +8,4 @@ clap = { version = "4.5.21", features = ["derive"] }
 tetra = "0.8.0"
 flib = { path = "lib" }
 locales = { path = "locales" }
+localize = { git = "https://github.com/PokeJofeJr4th/rust-localize", version = "0.1.0" }
