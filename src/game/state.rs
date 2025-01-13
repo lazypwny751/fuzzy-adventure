@@ -19,7 +19,7 @@ impl State for GameState {
 
 impl GameState {
 	pub fn new(ctx: &mut Context, language: &str) -> tetra::Result<GameState> {
-		let text = Text::new(format!("{}", Transcript::localize("hello world", &language)),
+		let text = Text::new(format!("{}", Transcript::localize("hello world", language)),
 			Font::vector(ctx, "assets/SourceCodePro-Regular.ttf", 16.0)?,
 		);
 
