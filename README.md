@@ -15,9 +15,9 @@ There's a limited localization support, that's not limiting the language entry o
 You must look up the "shell" files under the "locales" directory, for example: [part-one](locales/part-one.sh).
 for add new entries you can create a new shell file and also you can add context like the format:
 ```sh
-# 		title
+# 	title
 title "hello world"
-	#	language  context
+	#   language  context
 	entry "en" "Hello World!"
 	entry "tr" "Merhaba Dünya!"
 	entry "fr" "Bonjour le Monde!"

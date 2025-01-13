@@ -60,7 +60,7 @@ case "${OPT,,}" in
 	("build")
 		if [[ -d "${LOCALES}" ]]
 		then
-			echo -e "use localize::localization_table;\n\nlocalization_table! {Transcript = LDSL {" > "${OUT}"
+			echo -e "// This file generated automatically via ${0##*/}, please do not edit directly.\nuse localize::localization_table;\n\nlocalization_table! {Transcript = LDSL {" > "${OUT}"
 			for f in "${LOCALES}/"*"${SUFFIX}"
 			do
 				if [[ "${f##*/}" != "${0}" ]]
